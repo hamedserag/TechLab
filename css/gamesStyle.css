@@ -25,12 +25,8 @@ hr{
   width: 100%;
   border-radius: 3px;
 }
-@media only screen and (max-width: 1026px) {
-    .gameElement {
-        width: 32.5%;
-    }
-}
-/*===================*/
+
+/* card style===================*/
 .card-flip > div {
   backface-visibility: hidden;
   transition: transform 300ms;
@@ -50,7 +46,7 @@ hr{
   position: absolute;
   top: 0;
 }
-
+/*flipping animation*/
 .card-flip:hover .card-front {
   transform: rotateY(-180deg);
 }
