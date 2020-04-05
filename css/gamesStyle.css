@@ -1,7 +1,9 @@
+/*global setup*/
 *{
   margin:0 ;
   padding: 0;
 }
+/*the outer border that contains all games*/
 .gamesContainer{
   margin:0;
   padding: 0;
@@ -21,6 +23,7 @@ hr{
   background-color: #C5C6C8;
   height: 1.5px;
 }
+/*games styling*/
 .gameElement{
   width: 100%;
   border-radius: 3px;
